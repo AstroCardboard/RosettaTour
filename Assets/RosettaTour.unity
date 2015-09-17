@@ -126,13 +126,25 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 619857c15ef81d14ba06bcdd483f2c96, type: 3}
       propertyPath: m_LocalScale.x
-      value: .00499999989
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 619857c15ef81d14ba06bcdd483f2c96, type: 3}
       propertyPath: m_LocalScale.y
-      value: .00499999989
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 619857c15ef81d14ba06bcdd483f2c96, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 619857c15ef81d14ba06bcdd483f2c96, type: 3}
+      propertyPath: m_LocalScale.x
+      value: .00499999989
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 619857c15ef81d14ba06bcdd483f2c96, type: 3}
+      propertyPath: m_LocalScale.y
+      value: .00499999989
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 619857c15ef81d14ba06bcdd483f2c96, type: 3}
       propertyPath: m_LocalScale.z
       value: .00499999989
       objectReference: {fileID: 0}
@@ -152,8 +164,8 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4278190335
-  m_Size: 2.5
+    rgba: 2130706687
+  m_Size: 2
 --- !u!114 &20939585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,7 +187,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1000
+  m_Radius: 2
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &20939587
 MonoBehaviour:
@@ -360,17 +372,29 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 32045cc52d9d0e94fbf51c62147b96f9, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 32045cc52d9d0e94fbf51c62147b96f9, type: 3}
       propertyPath: m_LocalScale.x
-      value: .100000001
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 32045cc52d9d0e94fbf51c62147b96f9, type: 3}
       propertyPath: m_LocalScale.y
-      value: .100000001
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 32045cc52d9d0e94fbf51c62147b96f9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 32045cc52d9d0e94fbf51c62147b96f9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: .100000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 32045cc52d9d0e94fbf51c62147b96f9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: .100000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 32045cc52d9d0e94fbf51c62147b96f9, type: 3}
       propertyPath: m_LocalScale.z
       value: .100000001
       objectReference: {fileID: 0}
@@ -390,8 +414,8 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4294901760
-  m_Size: 2.5
+    rgba: 2147418112
+  m_Size: 2
 --- !u!114 &362782853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -413,7 +437,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 50
+  m_Radius: 2
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &362782855
 MonoBehaviour:
