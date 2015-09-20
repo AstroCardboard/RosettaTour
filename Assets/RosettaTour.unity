@@ -156,7 +156,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!1001 &1133455956
+--- !u!1001 &178354094
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -198,7 +198,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0b45c9d6a2c334e7783e86d6a1b85a00, type: 2}
   m_IsPrefabParent: 0
---- !u!1001 &1160883810
+--- !u!1001 &224351519
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -240,25 +240,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9a8675f1110ad4e9d8297d3260ebf283, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1194559535 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100006, guid: b8b03d395f5734e98af91ccf44f9bf47, type: 2}
-  m_PrefabInternal: {fileID: 2067314919}
---- !u!114 &1194559536
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1194559535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -768656878, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EventMask:
-    serializedVersion: 2
-    m_Bits: 4294967291
---- !u!1001 &1316714507
+--- !u!1001 &355028976
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -300,6 +282,24 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0a4d5fa86f2984ff694fa1e53fdf5f83, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1194559535 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100006, guid: b8b03d395f5734e98af91ccf44f9bf47, type: 2}
+  m_PrefabInternal: {fileID: 2067314919}
+--- !u!114 &1194559536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1194559535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -768656878, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 4294967291
 --- !u!1 &1453607778
 GameObject:
   m_ObjectHideFlags: 0
