@@ -3,8 +3,8 @@ using System.Collections;
 
 public class ExhibitMode : MonoBehaviour {
 
-	public GameObject camera = null;
-	public GameObject target = null;
+	public GameObject Camera = null;
+	public GameObject Target = null;
 
 	// Use this for initialization
 	void Start () {
@@ -14,5 +14,9 @@ public class ExhibitMode : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
+	}
+
+	public void SwitchMode() {
+
 	}
 }
