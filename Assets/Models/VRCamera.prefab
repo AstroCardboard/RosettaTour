@@ -141,8 +141,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 188014}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -5000}
+  m_LocalRotation: {x: 0, y: .642787695, z: 0, w: .766044378}
+  m_LocalPosition: {x: -12, y: 0, z: -3595}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children:
   - {fileID: 429990}
@@ -403,7 +403,7 @@ MonoBehaviour:
   autoUntiltHead: 1
   UseUnityRemoteInput: 0
   screenSize: 0
-  deviceType: 0
+  deviceType: 1
 --- !u!114 &11439318
 MonoBehaviour:
   m_ObjectHideFlags: 1
