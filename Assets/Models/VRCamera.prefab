@@ -68,7 +68,7 @@ GameObject:
   - 64: {fileID: 6442290}
   - 23: {fileID: 2377324}
   m_Layer: 0
-  m_Name: Startup
+  m_Name: Screen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -103,7 +103,6 @@ GameObject:
   - 4: {fileID: 426404}
   - 114: {fileID: 11422584}
   - 114: {fileID: 11449652}
-  - 114: {fileID: 11444604}
   m_Layer: 0
   m_Name: VRCamera
   m_TagString: Untagged
@@ -418,19 +417,6 @@ MonoBehaviour:
   m_EventMask:
     serializedVersion: 2
     m_Bits: 4294967291
---- !u!114 &11444604
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 188014}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af681862309544664a2d5d9185e6c018, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Handle: {fileID: 11422584}
-  Screen: {fileID: 178714}
 --- !u!114 &11449652
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -486,6 +472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1578549c7fcc4f6fa1b063992091672, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  screen: {fileID: 178714}
   trackRotation: 1
   trackPosition: 1
   target: {fileID: 0}

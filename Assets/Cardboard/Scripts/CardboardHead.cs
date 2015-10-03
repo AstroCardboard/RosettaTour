@@ -1,4 +1,4 @@
-﻿// Copyright 2014 Google Inc. All rights reserved.
+// Copyright 2014 Google Inc. All rights reserved.
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -31,6 +31,10 @@ using UnityEngine;
 /// the rotation is applied from where the positional offset is applied.  Use the
 /// #trackRotation and #trackPosition properties in this case.
 public class CardboardHead : MonoBehaviour {
+  /// A GameObject holding a start screen
+  public  GameObject screen = null;
+  private float      offset = 0.0f;
+
   /// Determines whether to apply the user's head rotation to this gameobject's
   /// orientation.
   public bool trackRotation = true;
@@ -47,7 +51,6 @@ public class CardboardHead : MonoBehaviour {
   /// fixed point of reference for the direction the user is looking.  Often, the
   /// grandparent or higher ancestor is a suitable target.
   public Transform target;
-
 
   /// Determines whether the head tracking is applied during `LateUpdate()` or
   /// `Update()`.  The default is `LateUpdate()` to reduce latency.  However, some
@@ -74,6 +77,10 @@ public class CardboardHead : MonoBehaviour {
 
   void Update() {
     updated = false;  // OK to recompute head pose.
+    if (screen && Cardboard.SDK.Triggered) {
+      Destroy(screen);
+      screen = null;
+    }
     if (updateEarly) {
       UpdateHead();
     }
@@ -95,6 +102,12 @@ public class CardboardHead : MonoBehaviour {
     if (trackRotation) {
       var rot = Cardboard.SDK.HeadPose.Orientation;
       if (target == null) {
+        if (screen) {
+          offset = rot.y;
+          rot.y  = 0.0f;
+        } else {
+          rot.y -= offset;
+        }
         transform.localRotation = rot;
       } else {
         transform.rotation = rot * target.rotation;
