@@ -33,7 +33,7 @@ using UnityEngine;
 public class CardboardHead : MonoBehaviour {
   /// A GameObject holding a start screen
   public  GameObject screen = null;
-  private float      offset = 0.0f;
+  private Vector3    offset = Vector3.zero;
 
   /// Determines whether to apply the user's head rotation to this gameobject's
   /// orientation.
@@ -103,11 +103,9 @@ public class CardboardHead : MonoBehaviour {
       var rot = Cardboard.SDK.HeadPose.Orientation;
       if (target == null) {
         if (screen) {
-          offset = rot.y;
-          rot.y  = 0.0f;
-        } else {
-          rot.y -= offset;
+          offset = new Vector3(0.0f, rot.eulerAngles.y, 0.0f);
         }
+        rot.eulerAngles -= offset;
         transform.localRotation = rot;
       } else {
         transform.rotation = rot * target.rotation;
