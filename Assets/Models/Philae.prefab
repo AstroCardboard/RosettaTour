@@ -45,6 +45,7 @@ GameObject:
   - 114: {fileID: 11438498}
   - 114: {fileID: 11432848}
   - 114: {fileID: 11465694}
+  - 114: {fileID: 11438642}
   m_Layer: 0
   m_Name: Philae
   m_TagString: Untagged
@@ -172,7 +173,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 11438498}
-          m_MethodName: StartOrbit
+          m_MethodName: StartLanding
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -196,6 +197,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6530bfd4970be49ee879014597e16ae5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11438642
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d13adf80596aa42fdb87ec3eeee9b1e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  center: {fileID: 0}
 --- !u!114 &11465694
 MonoBehaviour:
   m_ObjectHideFlags: 1

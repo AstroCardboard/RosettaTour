@@ -103,6 +103,7 @@ GameObject:
   - 4: {fileID: 426404}
   - 114: {fileID: 11422584}
   - 114: {fileID: 11449652}
+  - 114: {fileID: 11481088}
   m_Layer: 0
   m_Name: VRCamera
   m_TagString: Untagged
@@ -399,7 +400,6 @@ MonoBehaviour:
   tapIsTrigger: 1
   neckModelScale: 1
   autoDriftCorrection: 1
-  syncWithCardboardApp: 0
   autoUntiltHead: 1
   UseUnityRemoteInput: 0
   screenSize: 0
@@ -447,6 +447,18 @@ MonoBehaviour:
   toggleCullingMask:
     serializedVersion: 2
     m_Bits: 0
+--- !u!114 &11481088
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d13adf80596aa42fdb87ec3eeee9b1e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  center: {fileID: 0}
 --- !u!114 &11483456
 MonoBehaviour:
   m_ObjectHideFlags: 1

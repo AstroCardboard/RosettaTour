@@ -29,7 +29,7 @@ GameObject:
   - 135: {fileID: 13520482}
   - 114: {fileID: 11463586}
   - 114: {fileID: 11488432}
-  - 114: {fileID: 11471062}
+  - 114: {fileID: 11474622}
   m_Layer: 0
   m_Name: Rosetta
   m_TagString: Untagged
@@ -132,7 +132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6530bfd4970be49ee879014597e16ae5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &11471062
+--- !u!114 &11474622
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -140,9 +140,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 129386}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dffd807b1c0904be3801f005d74e5214, type: 3}
+  m_Script: {fileID: 11500000, guid: d13adf80596aa42fdb87ec3eeee9b1e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  center: {fileID: 0}
 --- !u!114 &11488432
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -179,23 +180,6 @@ MonoBehaviour:
         - m_Target: {fileID: 11463586}
           m_MethodName: SetGazedAt
           m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  - eventID: 4
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 11463586}
-          m_MethodName: StartLanding
-          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
