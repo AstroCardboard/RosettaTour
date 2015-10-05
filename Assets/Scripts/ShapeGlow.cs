@@ -22,18 +22,7 @@ public class ShapeGlow : MonoBehaviour {
 		// Allow Click Button to Animate
 		// ShowText
 	}
-	
-	public void StartOrbit() {
-		GameObject camera = GameObject.Find("CardboardMain");
-		TriggerMotion camera_trigger = camera.GetComponent<TriggerMotion> ();
-		camera_trigger.orbitY = false;
-		Gravity rosetta_physics = GetComponent<Gravity>();
-		rosetta_physics.position = new Vector3(11.15f, 6.93f, -0.53f);
-		rosetta_physics.velocity = new Vector3 (0f, 1f, 0f); //should be a function of its position?
-		rosetta_physics.enabled = true; //starts disabled 
-		
-	}
-	
+
 	public void StartLanding() {
 		GameObject camera = GameObject.Find("CardboardMain");
 		TriggerMotion camera_trigger = camera.GetComponent<TriggerMotion> ();
