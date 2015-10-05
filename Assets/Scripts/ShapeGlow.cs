@@ -24,9 +24,9 @@ public class ShapeGlow : MonoBehaviour {
 	}
 
 	public void StartLanding() {
-		GameObject camera = GameObject.Find("CardboardMain");
-		TriggerMotion camera_trigger = camera.GetComponent<TriggerMotion> ();
-		camera_trigger.orbitY = false;
+		//GameObject camera = GameObject.Find("CardboardMain");
+		//TriggerMotion camera_trigger = camera.GetComponent<TriggerMotion> ();
+		//camera_trigger.orbitY = false;
 		PhilaeLanding philae_land = GetComponent<PhilaeLanding> ();
 		//GameObject camera = GameObject.FindGameObjectsWithTag ("CardboardMain");
 		//GameObject comet = GameObject.Find("67P");

@@ -102,7 +102,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 426404}
   - 114: {fileID: 11422584}
-  - 114: {fileID: 11449652}
   - 114: {fileID: 11481088}
   m_Layer: 0
   m_Name: VRCamera
@@ -418,20 +417,6 @@ MonoBehaviour:
   m_EventMask:
     serializedVersion: 2
     m_Bits: 4294967291
---- !u!114 &11449652
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 188014}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bb0cc18dcea84012a4752dbda43049b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 192904, guid: 9a8675f1110ad4e9d8297d3260ebf283, type: 2}
-  orbitY: 0
-  cb: {fileID: 11422584}
 --- !u!114 &11474322
 MonoBehaviour:
   m_ObjectHideFlags: 1
