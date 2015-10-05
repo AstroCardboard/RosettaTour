@@ -24,18 +24,7 @@ public class ShapeGlow : MonoBehaviour {
 	}
 
 	public void StartLanding() {
-		//GameObject camera = GameObject.Find("CardboardMain");
-		//TriggerMotion camera_trigger = camera.GetComponent<TriggerMotion> ();
-		//camera_trigger.orbitY = false;
-		PhilaeLanding philae_land = GetComponent<PhilaeLanding> ();
-		//GameObject camera = GameObject.FindGameObjectsWithTag ("CardboardMain");
-		//GameObject comet = GameObject.Find("67P");
-		//TriggerMotion comet_trigger = comet.GetComponent<TriggerMotion> ();
-		//comet.transform.localPosition = new Vector3(0f, 0f, 0f);
-		//comet.transform.localEulerAngles = new Vector3(0f, 0f, 0f);
-		//comet_trigger.enabled = false;
-		philae_land.position = new Vector3(-11.7f, 3.59f, -2.49f);
-		philae_land.velocity = new Vector3 (+2f, 0f, 0f);
-		philae_land.enabled = true;
+		Landing philae_landing = GetComponent<Landing> ();
+		philae_landing.speed = 1.0f;
 	}
 }
