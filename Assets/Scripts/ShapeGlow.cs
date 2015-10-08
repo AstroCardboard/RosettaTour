@@ -14,13 +14,13 @@ public class ShapeGlow : MonoBehaviour {
 	}
 	
 	public void SetGazedAt(bool gazedAt) {
-		// Enlarge
-		GetComponent<Transform>().localScale = gazedAt ? 3*startingScale : startingScale;
-		// Glow
+		/// Enlarge
+		//GetComponent<Transform>().localScale = gazedAt ? 3*startingScale : startingScale;
+		/// Glow
 		Behaviour h = (Behaviour)GetComponent("Halo");
 		h.enabled = gazedAt ? true : false;
-		// Allow Click Button to Animate
-		// ShowText
+		/// Allow Click Button to Animate
+		//ShowText
 	}
 
 	public void StartLanding() {
