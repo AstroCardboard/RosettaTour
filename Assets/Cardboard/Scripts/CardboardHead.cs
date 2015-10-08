@@ -92,6 +92,7 @@ public class CardboardHead : MonoBehaviour {
   }
 
   // Compute new head pose.
+  private static bool reloaded = true;
   private void UpdateHead() {
     if (updated) {  // Only one update per frame, please.
       return;
@@ -99,8 +100,18 @@ public class CardboardHead : MonoBehaviour {
     updated = true;
     Cardboard.SDK.UpdateState();
 
+    var rot    = Cardboard.SDK.HeadPose.Orientation;
+    var eulerz = rot.eulerAngles.z;
+    if (eulerz >= 180.0f)
+      eulerz -= 360.0f;
+    if (Mathf.Abs (eulerz + 90.0f) >= 15.0f)
+      reloaded = false;
+    else if (!reloaded) {
+      Application.LoadLevel (Application.loadedLevel);
+      reloaded = true;
+    }
+
     if (trackRotation) {
-      var rot = Cardboard.SDK.HeadPose.Orientation;
       if (target == null) {
         if (screen) {
           offset = new Vector3(0.0f, rot.eulerAngles.y, 0.0f);
