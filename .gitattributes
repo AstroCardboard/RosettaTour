@@ -4,6 +4,7 @@
 *.obj	filter=lfs diff=lfs merge=lfs -text
 *.blend	filter=lfs diff=lfs merge=lfs -text
 Assets/Models/Materials/*.jpg	filter=lfs diff=lfs merge=lfs -text
+Assets/Models/Materials/*.png	filter=lfs diff=lfs merge=lfs -text
 
 # Auto detect text files and perform LF normalization
 * text=auto
