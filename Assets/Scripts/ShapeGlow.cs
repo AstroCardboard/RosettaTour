@@ -22,9 +22,4 @@ public class ShapeGlow : MonoBehaviour {
 		/// Allow Click Button to Animate
 		//ShowText
 	}
-
-	public void StartLanding() {
-		Landing philae_landing = GetComponent<Landing> ();
-		philae_landing.speed = 1.0f;
-	}
 }

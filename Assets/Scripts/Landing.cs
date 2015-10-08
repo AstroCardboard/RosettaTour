@@ -18,4 +18,8 @@ public class Landing : MonoBehaviour {
 			transform.position = Vector3.MoveTowards(transform.position, target.transform.position, step);
 		}
 	}
+	
+	public void StartLanding() {
+		speed = 1.0f;
+	}
 }
