@@ -3,8 +3,8 @@
 *.a	filter=lfs diff=lfs merge=lfs -text
 *.obj	filter=lfs diff=lfs merge=lfs -text
 *.blend	filter=lfs diff=lfs merge=lfs -text
-Assets/Models/Materials/*.jpg	filter=lfs diff=lfs merge=lfs -text
-Assets/Models/Materials/*.png	filter=lfs diff=lfs merge=lfs -text
+Assets/Prefabs/Materials/*.jpg	filter=lfs diff=lfs merge=lfs -text
+Assets/Prefabs/Materials/*.png	filter=lfs diff=lfs merge=lfs -text
 
 # Auto detect text files and perform LF normalization
 * text=auto
