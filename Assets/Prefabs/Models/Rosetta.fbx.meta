@@ -1,0 +1,128 @@
+fileFormatVersion: 2
+guid: 321e4e31fa6734b40baa6eaa9e9a64b5
+timeCreated: 1446858509
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: black
+    100002: black_krinkle
+    100004: dish
+    100006: foil_gold
+    100008: foil_silver
+    100010: lander
+    100012: lander.001
+    100014: panels_01
+    100016: panels_02
+    100018: //RootNode
+    100020: vents
+    100022: vents.004
+    400000: black
+    400002: black_krinkle
+    400004: dish
+    400006: foil_gold
+    400008: foil_silver
+    400010: lander
+    400012: lander.001
+    400014: panels_01
+    400016: panels_02
+    400018: //RootNode
+    400020: vents
+    400022: vents.004
+    2300000: black
+    2300002: black_krinkle
+    2300004: dish
+    2300006: foil_gold
+    2300008: foil_silver
+    2300010: lander
+    2300012: lander.001
+    2300014: panels_01
+    2300016: panels_02
+    2300018: vents
+    2300020: vents.004
+    3300000: black
+    3300002: black_krinkle
+    3300004: dish
+    3300006: foil_gold
+    3300008: foil_silver
+    3300010: lander
+    3300012: lander.001
+    3300014: panels_01
+    3300016: panels_02
+    3300018: vents
+    3300020: vents.004
+    4300000: vents.004
+    4300002: lander.001
+    4300004: lander
+    4300006: panels_01
+    4300008: black
+    4300010: vents
+    4300012: foil_silver
+    4300014: foil_gold
+    4300016: black_krinkle
+    4300018: dish
+    4300020: panels_02
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

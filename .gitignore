@@ -8,6 +8,11 @@
 sysinfo.txt
 *.stackdump
 
+Assets/Prefabs/Models/Materials/
+Assets/Prefabs/Models/Materials.meta
+Assets/Prefabs/Models/*.fbm/
+Assets/Prefabs/Models/*.fbm.meta
+
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
