@@ -1,34 +1,22 @@
 fileFormatVersion: 2
-guid: c255332263d6f453fae41c070ba26a45
-timeCreated: 1442755214
+guid: a65be7b465466472a842fcfb6fd607c5
+timeCreated: 1446925120
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
     100000: //RootNode
-    100002: 67P_2015may9_malmer_MeshPart0
-    100004: 67P_2015may9_malmer_MeshPart1
-    100006: 67P_2015may9_malmer_MeshPart2
-    100008: 67P_2015may9_malmer_MeshPart3
+    100002: 67P_Fat_MeshPart0
+    100004: 67P_Fat_MeshPart1
     400000: //RootNode
-    400002: 67P_2015may9_malmer_MeshPart0
-    400004: 67P_2015may9_malmer_MeshPart1
-    400006: 67P_2015may9_malmer_MeshPart2
-    400008: 67P_2015may9_malmer_MeshPart3
-    2300000: 67P_2015may9_malmer_MeshPart0
-    2300002: 67P_2015may9_malmer_MeshPart1
-    2300004: 67P_2015may9_malmer_MeshPart2
-    2300006: 67P_2015may9_malmer_MeshPart3
-    3300000: 67P_2015may9_malmer_MeshPart0
-    3300002: 67P_2015may9_malmer_MeshPart1
-    3300004: 67P_2015may9_malmer_MeshPart2
-    3300006: 67P_2015may9_malmer_MeshPart3
-    4300000: 67P_2015may9_malmer_MeshPart0
-    4300002: 67P_2015may9_malmer_MeshPart1
-    4300004: 67P_2015may9_malmer_MeshPart2
-    4300006: 67P_2015may9_malmer_MeshPart3
-    7400000: Default Take
-    9500000: //RootNode
+    400002: 67P_Fat_MeshPart0
+    400004: 67P_Fat_MeshPart1
+    2300000: 67P_Fat_MeshPart0
+    2300002: 67P_Fat_MeshPart1
+    3300000: 67P_Fat_MeshPart0
+    3300002: 67P_Fat_MeshPart1
+    4300000: 67P_Fat_MeshPart0
+    4300002: 67P_Fat_MeshPart1
   materials:
     importMaterials: 1
     materialName: 0
@@ -37,10 +25,10 @@ ModelImporter:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     optimizeGameObjects: 0
-    motionNodeName:
-    animationImportErrors:
-    animationImportWarnings:
-    animationRetargetingWarnings:
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 1
     animationRotationError: .5
@@ -84,12 +72,12 @@ ModelImporter:
     armStretch: .0500000007
     legStretch: .0500000007
     feetSpacing: 0
-    rootMotionBoneName:
+    rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
