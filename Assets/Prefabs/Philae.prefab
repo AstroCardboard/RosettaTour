@@ -221,7 +221,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 0}
-  speed: 0
 --- !u!122 &12242038
 Halo:
   m_ObjectHideFlags: 1
@@ -232,7 +231,7 @@ Halo:
   m_Color:
     serializedVersion: 2
     rgba: 2130706687
-  m_Size: 4
+  m_Size: 2
 --- !u!135 &13572974
 SphereCollider:
   m_ObjectHideFlags: 1
