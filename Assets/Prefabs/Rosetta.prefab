@@ -815,11 +815,11 @@ Halo:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 129386}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 2147418112
-  m_Size: 16
+    rgba: 2130771712
+  m_Size: 4
 --- !u!135 &13520482
 SphereCollider:
   m_ObjectHideFlags: 1
@@ -830,7 +830,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 16
+  m_Radius: 4
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &100100000
 Prefab:
