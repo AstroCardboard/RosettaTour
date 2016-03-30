@@ -463,7 +463,6 @@ MonoBehaviour:
   tapIsTrigger: 1
   neckModelScale: 1
   autoDriftCorrection: 1
-  syncWithCardboardApp: 0
   autoUntiltHead: 1
   UseUnityRemoteInput: 0
   screenSize: 0
