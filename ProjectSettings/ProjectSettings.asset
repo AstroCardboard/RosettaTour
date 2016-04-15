@@ -90,14 +90,14 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleIdentifier: org.astrocardboard.RosettaTour
-  bundleVersion: 1.0
+  bundleVersion: 0.9
   preloadedAssets: []
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
   xboxOneDisableKinectGpuReservation: 0
-  virtualRealitySupported: 0
+  virtualRealitySupported: 1
   productGUID: 5741564fc237a47a9b1b17ceb2d47338
-  AndroidBundleVersionCode: 1
+  AndroidBundleVersionCode: 0
   AndroidMinSdkVersion: 13
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -176,7 +176,10 @@ PlayerSettings:
       m_Icon: {fileID: 2800000, guid: c5c0c7191d6474e80a195583cd158cd1, type: 3}
       m_Width: 128
       m_Height: 128
-  m_BuildTargetBatching: []
+  m_BuildTargetBatching:
+  - m_BuildTarget: Android
+    m_StaticBatching: 1
+    m_DynamicBatching: 0
   m_BuildTargetGraphicsAPIs: []
   webPlayerTemplate: APPLICATION:Default
   m_TemplateCustomTags: {}
