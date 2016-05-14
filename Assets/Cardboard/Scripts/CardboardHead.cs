@@ -102,18 +102,21 @@ public class CardboardHead : MonoBehaviour {
     Cardboard.SDK.UpdateState();
 
     var rot    = Cardboard.SDK.HeadPose.Orientation;
+    var eulerx = rot.eulerAngles.x;
+    if (eulerx >= 180.0f)
+      eulerx -= 360.0f;
     var eulerz = rot.eulerAngles.z;
     if (eulerz >= 180.0f)
       eulerz -= 360.0f;
 
-    if (Mathf.Abs (eulerz + 90.0f) >= 15.0f)
+    if (Mathf.Abs (eulerx) >= 30.0f || Mathf.Abs (eulerz + 90.0f) >= 15.0f)
       reloaded = false;
     else if (!reloaded) {
       Application.LoadLevel (Application.loadedLevel);
       reloaded = true;
     }
 
-    if (Mathf.Abs (eulerz - 90.0f) >= 15.0f)
+    if (Mathf.Abs (eulerx) >= 30.0f || Mathf.Abs (eulerz - 90.0f) >= 15.0f)
       reswitch = false;
     else if (!reswitch) {
       Cardboard.SDK.VRModeEnabled = !Cardboard.SDK.VRModeEnabled;
