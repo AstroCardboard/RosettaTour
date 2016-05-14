@@ -16,7 +16,7 @@ public class Present : MonoBehaviour {
 	}
 
 	public void Next (Material mat) {
-		if (++current >= 5)
+		if (++current > 5)
 			current = 0;
 
 		string file = "slides" + current.ToString ("D2") + "Tex";
