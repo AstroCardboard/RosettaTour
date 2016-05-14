@@ -93,6 +93,7 @@ public class CardboardHead : MonoBehaviour {
 
   // Compute new head pose.
   private static bool reloaded = true;
+  private static bool reswitch = true;
   private void UpdateHead() {
     if (updated) {  // Only one update per frame, please.
       return;
@@ -104,11 +105,19 @@ public class CardboardHead : MonoBehaviour {
     var eulerz = rot.eulerAngles.z;
     if (eulerz >= 180.0f)
       eulerz -= 360.0f;
+
     if (Mathf.Abs (eulerz + 90.0f) >= 15.0f)
       reloaded = false;
     else if (!reloaded) {
       Application.LoadLevel (Application.loadedLevel);
       reloaded = true;
+    }
+
+    if (Mathf.Abs (eulerz - 90.0f) >= 15.0f)
+      reswitch = false;
+    else if (!reswitch) {
+      Cardboard.SDK.VRModeEnabled = !Cardboard.SDK.VRModeEnabled;
+      reswitch = true;
     }
 
     if (trackRotation) {
