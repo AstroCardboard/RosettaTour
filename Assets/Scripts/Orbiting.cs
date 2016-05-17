@@ -4,14 +4,12 @@ using System.Collections;
 public class Orbiting : MonoBehaviour {
 
 	public  GameObject center  = null;
-	const   float      speed   = 10.0f;
+	const   float      step    = 0.3f;
 	private bool       running = true;
 
 	void Update () {
-		if (center && running) {
-			float step = speed * Time.deltaTime;
+		if (center && running)
 			transform.RotateAround (center.transform.position, Vector3.up, step);
-		}
 	}
 
 	public void Pause () {
